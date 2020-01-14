@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+}
+.body{
+    background-color: #FFFFFF;
+}
+.header {
+	height: 74px;
+	background-color: #4482FF;
+}
+
+.logo{
+	height: 70px;
+	width: 175px;
+}
+
+.user{
+    margin-top: 13px;
+    margin-right: 13px;
+	height: 50px;
+    width: 50px;
+    border-radius: 50px;
+	float: right;
+}
+
+.lang{
+     margin-top: 13px;
+    margin-right: 13px;
+	height: 50px;
+    width: 50px;
+    border-radius: 50px;
+	float: right;
+}
+
+/* css navbar */
+
+
+.nav{
+	height: 64px;
+	background-color: #3E75E6;
+}
+
+.dashboard {
+	height: 20px;
+	width: 81px;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 8px;
+	
+}
+
+.jadwal-dokter {
+	height: 20px;
+	width: 99px;
+	color: #C2C0C0;
+	font-family: arial;
+	font-size: 16px;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 8px;
+	
+}
+
+.data-rawat-jalan {
+	height: 20px;
+	width: 124px;
+	color: #D0D0D0;
+	font-family: arial;
+	font-size: 16px;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 8px;
+	
+}
+
+.overview {
+	height: 36px;
+	width: 141px;
+	color: #535353;
+	font-family: arial;
+	font-size: 26px;
+	letter-spacing: 1.95px;
+    line-height: 65px;
+    margin-top: 20px;
+	margin-left: 45px;
+}
+
+.search {
+	box-sizing: border-box;
+	height: 46px;
+	width: 308px;
+	border: 1px solid #4358CE;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	float: right;
+    margin-right: -5px;
+    margin-top: -23px;
+}
+
+.button {
+	box-sizing: border-box;
+	height: 46px;
+	width: 46px;
+	border: 1px solid #4358CE;
+	border-radius: 0 4px 4px 0;
+	background-color: #4358CE;
+	float: right;
+    margin-right: 25px;
+    margin-top: -23px;
+}
+
+.button:hover  {
+	height: 13.78px;
+	width: 12.79px;
+	background-color: #FFFFFF;
+}
+
+.box-year {
+	text-align: center;
+	box-sizing: border-box;
+	height: 46px;
+	width: 105px;
+	border: 1px solid rgba(67,88,206,0.5);
+	border-radius: 4px;
+	background-color: #EDF0F9;
+	float: right;
+    margin-right: 25px;
+    margin-top: -23px;
+}
+
+.box-month {
+	text-align: center;
+	box-sizing: border-box;
+	height: 46px;
+    width: 105px;
+    margin-top: -23px;
+	border: 1px solid rgba(67,88,206,0.5);
+	border-radius: 4px;
+	background-color: #EDF0F9;
+	float: right;
+	margin-right: 25px;
+}
+.container{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.rectangle{
+    width: 300px;
+    height: 164px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 25);
+}
+
+.rectangle1{
+    width: 1840px;
+    height: 568px;
+    margin: 35px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 25);
+}
+
+.list-pencarian-pasien {
+	height: 23px;
+	width: 255px;
+	color: #535353;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+    line-height: 25px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+#sticky-footer {
+    flex-shrink: none;
+  }
+
+.footer {
+	height: 64px;
+	background-color: #F6F7FA;
+}
+.footer-txt{
+        height: 23px;
+        width: 605px;
+        color: #535353;
+        font-family: arial;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 25px;
+        text-align: center;
+}
