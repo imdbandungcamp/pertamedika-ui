@@ -5,22 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="dist/css/style-1.css">
+  <link rel="stylesheet" href="dist/css/circle.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<div class="container">
-  </div>
-
-
-
-  <nav class="navbar navbar-expand-md|lg|dm navbar-dark" style="background-color: #4482FF;">
+  <nav class="navbar navbar-expand-sm|md|lg|xl navbar-dark" style="background-color: #4482FF;height: 74px;">
     <a class="navbar-brand" href="#">
         <img src="dist/img/medinesia.png" style="width: 145px; height: 50px;">
       </a>
+      <img class="lang" src="dist/img/indo.png">
       <img class="user" src="dist/img/user.jpg">
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       
@@ -46,27 +40,108 @@
       </ul>
     </div>  
   </nav>
-  
-  <div class="container">
-    
-    <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+  <nav class="navbar navbar-expand-sm|lg bg-light navbar-dark">
+    <div class="overview">
+      Overview
+    </div>
         <form class="form-inline">
-            Overview
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" style="height:45px; width:308px; float: right;">
+          <button type="button" class="btn btn-outline-secondary" style="height:46px; width: 104px; margin-right: 21px;">Month</button>
+          <button type="button" class="btn btn-outline-secondary" style="height: 46px; width: 104px; margin-right: 21px;">Year</button>
+          <input class="form-control mr-sm-2 expand" type="text" placeholder="Search" style="height:46px; width:308px; float: right;">
           <button class="btn btn-primary" type="submit" style="height:45px; width:45px; float: right;">Go</button>
         </form>
       </nav>
+  
+    
+    
+<div class="container-fluid">
+    <div class="card-deck row justify-content-around">
+      <div class="card bg-white col-md-2 col-sm-12" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+        <div class="card-body text-center">
+          <div class="circle-phi">
+            <div class="circle-phi-1">
+              <div class="circle-phi-2">
 
-    <div class="card-deck" style="width:420px; height:164px;">
-        <div class="card bg-white" style="box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the first card</p>
+              </div>
+            </div>
           </div>
         </div>
-        
       </div>
+      <div class="card bg-white col-md-2" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+        <div class="card-body text-center">
+          <p class="card-text">Some text inside the first card</p>
+        </div>
+      </div>
+      <div class="card bg-white col-md-2" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+        <div class="card-body text-center">
+          <p class="card-text">Some text inside the first card</p>
+        </div>
+      </div>
+      <div class="card bg-white col-md-2" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+        <div class="card-body text-center">
+          <p class="card-text">Some text inside the first card</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck">
+      <div class="card bg-white" style=" margin-bottom: 22px; height:568px; margin-top: 36px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+        <div class="card-body">
+          <p class="card-text"><b>List Pencarian Pasien Lama</b>
+          <button type="button" class="btn float-right" style="color: white; background-color: #4358CE;"><a class="tpb">Tambah Pasien Baru</a></button></p>
+          <p class="text-center">Pencarian Pasien</p> 
+          <form>
+            <div class="row">
+              <div class="col-5">
+              <input type="text" class="form-control" placeholder="Nomor Medical Record">
+              <div class="input-group-prepend">
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+                  
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+              </div>
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control">
+              </div>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+   
   </div>
   
+  <footer>
+    <div class="footer">
+      <p class="text">Sistem Operasi Rumah Sakit @2019 Powered by Medinesia.id</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
