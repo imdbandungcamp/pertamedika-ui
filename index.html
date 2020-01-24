@@ -22,24 +22,26 @@
   </nav>
 
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #3E75E6;">
-    <a class="navbar-brand" href="#">Dashboard</a>
+    <a class="navbar-brand" href="#" style="width: 81px; font-family: arial; font-size: 14px; font-weight: bold; text-decoration: none; padding: 8px; margin-right: 10px;">Dashboard</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Jadwal Dokter</a>
+          <a class="nav-link" href="#" style=" color: #C2C0C0; font-family: arial; font-size: 14px; text-decoration: none; padding: 8px; margin-right: 10px; margin-top: 2px;">Jadwal Dokter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Data Rawat Jalan</a>
+          <a class="nav-link" href="#" style="color: #C2C0C0; font-family: arial; font-size: 14px; text-decoration: none; padding: 8px; margin-right: 10px; margin-top: 2px;">Data Rawat Jalan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Data Rawat Jalan</a>
+          <a class="nav-link" href="#" style="color: #C2C0C0; font-family: arial; font-size: 14px; text-decoration: none; padding: 8px; margin-right: 10px; margin-top: 2px;">Data Rawat Jalan</a>
         </li>    
       </ul>
     </div>  
   </nav>
+
+
   <nav class="navbar navbar-expand-sm|lg bg-light navbar-dark">
     <div class="overview">
       Overview
@@ -56,7 +58,7 @@
     
 <div class="container-fluid">
     <div class="card-deck row justify-content-around">
-      <div class="card bg-white col-md-2 col-sm-12" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+      <div class="card bg-white" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
           <div class="circle-phi">
             <div class="circle-phi-1">
@@ -67,17 +69,17 @@
           </div>
         </div>
       </div>
-      <div class="card bg-white col-md-2" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+      <div class="card bg-white " style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
           <p class="card-text">Some text inside the first card</p>
         </div>
       </div>
-      <div class="card bg-white col-md-2" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+      <div class="card bg-white" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
           <p class="card-text">Some text inside the first card</p>
         </div>
       </div>
-      <div class="card bg-white col-md-2" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
+      <div class="card bg-white " style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
           <p class="card-text">Some text inside the first card</p>
         </div>
@@ -90,23 +92,67 @@
           <button type="button" class="btn float-right" style="color: white; background-color: #4358CE;" value="pages/pendaftaran_pasien.html" ><a class="tpb" href="pages/pendaftaran_pasien.html">Tambah Pasien Baru</a></button></p>
           <p class="text-center">Pencarian Pasien</p> 
           <form>
-            <div class="row">
-              <div class="col-5">
-              <input type="text" class="form-control" placeholder="Nomor Medical Record">
-              <div class="input-group-prepend">
-                <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
-                  
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Link 1</a>
-                  <a class="dropdown-item" href="#">Link 2</a>
-                  <a class="dropdown-item" href="#">Link 3</a>
+          
+
+<!--start-form-->
+          <form>
+            <div class="row justify-content-around">
+            <div class="input-group mt-3 mb-3 col-md-6">
+              
+              <select class="custom-select1 custom-select-lg mb-3">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+        </select>
+            
+              <div class="input-group mb-3 col-md-6">
+                <input type="text" class="form-control14" placeholder="Search">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="submit">Go</button>
                 </div>
               </div>
-              </div>
-              <div class="col-6">
-                <input type="text" class="form-control">
-              </div>
+            </div>
+            </div>
+          </form>
+          <!--end-form-->
+
+
+
+
+<table>
+  <tr>
+    <th>No</th>
+    <th>Nomor MR</th>
+    <th>Name</th>
+    <th>Jenis Identitas</th>
+    <th>No Identitas</th>
+    <th>No Handphone</th>
+    <th>Address</th>
+  </tr>
+  <tr style="color: #4358CE; font-weight: bold;" >
+    <td>1</td>
+    <td>123459876</td>
+    <td>Johny</td>
+    <td>KTP</td>
+    <td>3205050690006</td>
+    <td>082240424802</td>
+    <td>Jalan rebab no 17 Turangga</td>
+  </tr>
+</table>
+
+
+
+
+
+
+  
+
+
+
+
+
+              
               </div>
             </div>
           </form>
