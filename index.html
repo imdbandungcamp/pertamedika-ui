@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="dist/css/style-1.css">
   <link rel="stylesheet" href="dist/css/circle.css">
+  <link rel="stylesheet" href="dist/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
@@ -47,8 +48,8 @@
       Overview
     </div>
         <form class="form-inline">
-          <button type="button" class="btn btn-outline-secondary" style="height:46px; width: 104px; margin-right: 21px;">Month</button>
-          <button type="button" class="btn btn-outline-secondary" style="height: 46px; width: 104px; margin-right: 21px;">Year</button>
+          <button type="button" class="btn btn-outline-secondary mr-3 mr-sm-6" style="height:46px; width: 104px; ">Month</button>
+          <button type="button" class="btn btn-outline-secondary mr-3 mr-sm-6" style="height: 46px; width: 104px; ">Year</button>
           <input class="form-control mr-sm-2 expand" type="text" placeholder="Search" style="height:46px; width:308px; float: right;">
           <button class="btn btn-primary" type="submit" style="height:45px; width:45px; float: right;">Go</button>
         </form>
@@ -61,8 +62,8 @@
       <div class="card bg-white" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
           <div class="circle-phi">
-            <div class="circle-phi-1">
-              <div class="circle-phi-2">
+            <div class="circle-phi-1 ml-2">
+              <div class="circle-phi-2 ml-1">
 
               </div>
             </div>
@@ -71,26 +72,44 @@
       </div>
       <div class="card bg-white " style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
-          <p class="card-text">Some text inside the first card</p>
+          <div class="circle-phi">
+            <div class="circle-phi-1 ml-2">
+              <div class="circle-phi-2 ml-1">
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="card bg-white" style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
-          <p class="card-text">Some text inside the first card</p>
+          <div class="circle-phi">
+            <div class="circle-phi-1 ml-2">
+              <div class="circle-phi-2 ml-1">
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="card bg-white " style="width:420px; height:164px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body text-center">
-          <p class="card-text">Some text inside the first card</p>
+          <div class="circle-phi">
+            <div class="circle-phi-1 ml-2">
+              <div class="circle-phi-2 ml-1">
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="card-deck">
       <div class="card bg-white" style=" margin-bottom: 22px; height:568px; margin-top: 36px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);">
         <div class="card-body">
-          <p class="card-text"><b>List Pencarian Pasien Lama</b>
+          <p class="card-text "><b>List Pencarian Pasien Lama</b>
           <button type="button" class="btn float-right" style="color: white; background-color: #4358CE;" value="pages/pendaftaran_pasien.html" ><a class="tpb" href="pages/pendaftaran_pasien.html">Tambah Pasien Baru</a></button></p>
-          <p class="text-center">Pencarian Pasien</p> 
+          <p class="text-center" style=" color: #535353; font-size: 16px; line-height: 25px; font-size: 16px;letter-spacing: 0.8px; font-weight: bold;">Pencarian Pasien</p> 
           <form>
           
 
@@ -99,17 +118,17 @@
             <div class="row justify-content-around">
             <div class="input-group mt-3 mb-3 col-md-6">
               
-              <select class="custom-select1 custom-select-lg mb-3">
-              <option selected>Open this select menu</option>
+              <select class="mb-3" style="width: 286px; height: 45px; color: #323C47; font-size: 12px; font-weight: bold;">
+              <option selected>Nomor Medical Record</option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>
-        </select>
+              </select>
             
               <div class="input-group mb-3 col-md-6">
-                <input type="text" class="form-control14" placeholder="Search">
+                <input type="text" class="form-control" style=" height: auto;" placeholder="" aria-label="" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="submit">Go</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
                 </div>
               </div>
             </div>
@@ -119,18 +138,20 @@
 
 
 
-
-<table>
-  <tr>
-    <th>No</th>
-    <th>Nomor MR</th>
-    <th>Name</th>
-    <th>Jenis Identitas</th>
-    <th>No Identitas</th>
-    <th>No Handphone</th>
-    <th>Address</th>
-  </tr>
-  <tr style="color: #4358CE; font-weight: bold;" >
+<div class="table-responsive">
+<table class="table">
+    <thead>
+      <tr style="font-size: 14px;">
+        <th>No</th>
+        <th>Nomor MR</th>
+        <th>Name</th>
+        <th>Jenis Identitas</th>
+        <th>No Identitas</th>
+        <th>No Handphone</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+  <tr style="color: #4358CE; font-weight: bold; font-size: 14px;" >
     <td>1</td>
     <td>123459876</td>
     <td>Johny</td>
@@ -140,7 +161,7 @@
     <td>Jalan rebab no 17 Turangga</td>
   </tr>
 </table>
-
+</div>
 
 
 
