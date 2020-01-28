@@ -1,107 +1,175 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Medinesia</title>
-	<link rel="stylesheet" href="../dist/css/style-2.css">
-	<!-- <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/boostrap.css"> -->
-</head>
-<body>
-	
-	<div class="header">
-		<img class="logo" src="../dist/img/Capture1.png">
-		<img class="avatar-placeholder" src="../dist/img/Capture.png">
-		<img class="ic-change-flag" src="../dist/img/Capture2.png">
-		<img class="ic-notif" src="../dist/img/Capture3.png">
-	</div>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<div class="nav">
-		<ul>
-			<a href="../index.html" class="dashboard">Dashboard</a>
-			<a href="#" class="jadwal-dokter">Jadwal Dokter</a>
-			<a href="#" class="data-rawat-jalan">Data Rawat Jalan</a>
-			<a href="#" class="data-rawat-jalan2">Data Rawat Jalan</a>
-      <a href="perawat_rawat_inap.html" class="dashboard">Next</a>
-		</ul>
-	</div>
-   
-  <div class="navbar">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css">
+
+    
+
+    <title>Medinesia</title>
+
+  </head>
+  <body id="page-top">
+
+
+  <div class="card-header">
+      <img class="logo" src="../dist/img/logo.png">
+      <img class="user" src="../dist/img/awug.png">
+  </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" style="background-color: #3E75E6;">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" style="color :white;" href="#">Dasboard <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color :#D0D0D0;" href="#">Jadwal Dokter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color :#D0D0D0;" href="#">Data Rawat Jalan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color :#D0D0D0;" href="#">Data Rawat Jalan</a>
+              </li>
+            </ul>
+          </div>
+        
+      </nav>
+
+        <div class="navbar">
 <ul>
-<b><a  class="Dashboard">Dashboard &#8594 </a></b>
-<a  class="pendaftaran-pasien-b">Pendaftar Pasien Baru</a>
+<b><a  class="Dashboard col-sm-4">Dashboard &#8594 </a></b>
+<a  class="pendaftaran-pasien-b col-sm-4">Pendaftar Pasien Baru</a>
 </ul>
 </div>
 
 <div class="container">
   <div  class="rectangle">
-<ul><a  class="form-pendaftaran-pas">Form Pendaftaran Baru Pasien</a></ul>
-<ul><img class="group-13" src="../dist/img/Capture5.png"></ul>
-<br>
+<ul><a  class="col-sm-12">Form Pendaftaran Baru Pasien</a></ul>
+<div class="mdl-card mdl-shadow--2dp">
 
+  <div class="mdl-card__supporting-text">
+<center>
+  <ul>  <div class="mdl-stepper-horizontal-alternative">
+      <div class="mdl-stepper-step active-step">
+        <div class="mdl-stepper-circle"><span>1</span></div>
+        <div class="mdl-stepper-title">Data Diri Pasien</div>
+        <div class="mdl-stepper-bar-left"></div>
+        <div class="mdl-stepper-bar-right"></div>
+      </div>
+      <div class="mdl-stepper-step active-step">
+        <div class="mdl-stepper-circle"><span>2</span></div>
+        <div class="mdl-stepper-title">Alamat Pasien</div>
+        <div class="mdl-stepper-optional"></div>
+        <div class="mdl-stepper-bar-left"></div>
+        <div class="mdl-stepper-bar-right"></div>
+      </div>
+      <div class="mdl-stepper-step active-step">
+        <div class="mdl-stepper-circle"><span>3</span></div>
+        <div class="mdl-stepper-title">Pekerjaan</div>
+        <div class="mdl-stepper-optional"></div>
+        <div class="mdl-stepper-bar-left"></div>
+        <div class="mdl-stepper-bar-right"></div>
+      </div>
+      <div class="mdl-stepper-step active-step">
+        <div class="mdl-stepper-circle"><span>4</span></div>
+        <div class="mdl-stepper-title">Data Nasabah</div>
+        <div class="mdl-stepper-optional"></div>
+        <div class="mdl-stepper-bar-left"></div>
+        <div class="mdl-stepper-bar-right"></div>
+      </div>
+    </div>
 </ul>
-	
+  </div>
+</div>
 </ul>
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col-sm-4">
-       <ul> <label for="fname">JENIS PASIEN</label></ul>
+</ul>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+  <div class="container">    
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="nama">Jenis Pasien:</label>
+        <input type="text" class="form-control">
       </div>
-      <div class="col-75">
-     <ul><input type="text" id="fname" name="firstname" placeholder="Dewasa"></ul>
+      <div class="form-group">
+        <label>Nama</label>
+        <label for="alamat"></label>
+        <input type="text" class="form-control" id="alamat">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <ul><label for="lname">NO KARTU KELUARGA</label></ul>
-      </div>
-      <div class="row">
-      <div class="col-75">
-       <ul> <input type="text" id="lname" name="lastname" placeholder="no"></ul>
-      </div>
-    </div>
+      <div class="form-group">
+        <label for="country">jenis identitas:</label>
+        <input type="text" class="form-control" id="alamat">
+      </div>     
+
+    </form>
   </div>
-    <div class="row">
-      <div class="col-sm-4">
-       <ul> <label for="country">JENIS IDENTITAS</label></ul>
-      </div>
-      <div class="col-75">
-        <ul><select id="search" name="search">
-          <option value="australia">KTP</option>
-          <option value="canada">SIM</option>
-          <option value="usa">KK</option>
-        </select></ul>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-sm-4">
-       <ul> <label for="country">JENIS KELAMIN</label></ul>
-      </div>
-      <div class="col-75">
-        <ul><select id="search" name="search">
-          <option value="australia">LAKI LAKI</option>
-          <option value="canada">PEREMPUAN</option>
-        </select><ul>
-      </div>
-    </div>
-
-     
-
-    	  <ul><ul><ul><ul><center>
-        &emsp;&emsp; &emsp;  <input a href="#" div class="base-copy" type='submit' name='tombol' value='Cancel'>&emsp; &emsp; &emsp;
-          <input a href="#" div class="base" type='submit' name='tombol' value='Next'></center></ul></ul></ul></ul>
-        
-        
-      </div>
-    </div>
-  </div>
-    </div>
-
- <!-- <div class="navbar"> -->
- 	<br>
- 	<br>
-<ol><p><center><div class="footer">Sistem informasi Rumah Sakit @2019 Powered by Medinesia.id</div></center></p></ol>
-<br>
-<br>
-   
 </body>
+</html>
+        <ul><ul><ul><ul><center>
+        <button type="submit" class="btn btn-primary">cancel</button>
+        <button type="submit" class="btn btn-primary">next</button> 
+
+<center><h6>Sistem informasi Rumah Sakit @2019 Powered by Medinesia.id</h6></center>
+
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br>
+         
+        
+        </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
