@@ -1,22 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" type="image/png" href="../dist/img/capture_20200114161418.png">
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../dist/css/bootstrap.css">
-    <title>| Pertamedika Last |</title>
+    <title>| Pertamedika |</title>
   </head>
   <body>
   <div class="card-header-card">
       <img class="logo" src="../dist/img/capture_20200130110753.png">
-      <img class="user" src="../dist/img/capture_20200116105944.png">
+      <img class="user-1" src="../dist/img/capture_20200116105944.png" style="padding-left: 10px;">
   </div>
-  <!-- #F2F2F2 -->
-  <!-- #FAFAFA -->
   <div class="card-header" style="background-color: #3E75E6;">
     <div class="detail-pasien">Detail Pasien</div><br>
       <div class="media">
@@ -24,13 +20,13 @@
           <div class="media-body">
           <div class="row" style="padding-left: 15px;">
           <div class="col-lg" style="font-size: 11px; font-weight: bold; color :white; font-family: arial;">
-            <p> Nama : Jimmy 
+            <p> Nama : Jimmy </p>
             <P> Nomor MR : 12345678</P>
             <P> Jenis Kelamin : Perempuan </P>
           </div>
          <div class="col-lg" style="font-size: 11px; font-weight: bold; color :white; font-family: arial;">
            <p> Tingggi Badan : 180cm </p>
-           <p> Berat Badan : 78cm </p>
+           <p> Berat Badan : 78kg </p>
            <p> Alergi : Udang  </p>
           </div>
          <div class="col-lg" style="font-size: 11px; font-weight: bold; color :white; font-family: arial;">
@@ -51,7 +47,7 @@
     </div>
   </div>
 </div> 
-<nav class="navbar navbar-expand-lg navbar-light" id="mainNav" style="background-color: #2F57A7;">
+  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" style="background-color: #2F57A7;">
   <a class="navbar-brand" href="../index.html" style="color :white; font-family: arial;
   font-weight: bold; font-size: 14px;">Dashboard</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +55,7 @@
 </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#" style="color :#D0D0D0; font-family: arial;">Assesment Perawatan Awal<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="#" style="color :#D0D0D0; font-family: arial; font-size: 14px;">Assesment Perawatan Awal<span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#" style="color :#D0D0D0; font-size: 14px; font-family: arial;">Rencana Asuhan Perawatan</a>
       <a class="nav-item nav-link" href="perawat_rawat_inap-'css'.html" style="color :white; font-size: 14px; font-weight: bold;">Assesment Kebutuhan Edukasi</a>
       <a class="nav-item nav-link" href="#" style="color :#D0D0D0; font-size: 14px; font-family: arial;">Catatan Integrated Note</a>
@@ -73,13 +69,26 @@
 <br>
 <div class="container-fluid">
     <div class="card-deck row justify-content-around">
-      <div class="card bg-white" style="width:400px; height:300px;">
+      <div class="card bg-white" style="width: auto; height:780px;">
         <div class="">
           <div class="">
             <div class="">
               <div class="">
                 <!-- content -->
-&nbsp;<div class="form-check form-check-inline">
+<p style="font-family: arial; font-size: 18px; padding-left: 10px; padding-top: 10px; padding-bottom: 1px; font-weight: bold;">Form Input Assesment Kebutuhan Edukasi</p>
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" style="font-family: arial; background-color: #F5F5F5;">Assesment Kebutuhan Edukasi Awal</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="font-family: arial;">Assesment Ulang Kebutuhan Edukasi</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"></div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
+</div>
+<b style="font-family: arial; padding-left: 10px; font-size: 16px; font-weight: bold;">Alasan dilakukan assesment ulang?</b><br>
+<div class="form-check form-check-inline" style="font-family: arial; padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
   <label class="form-check-label" for="inlineCheckbox1">Terapi Baru</label>
 </div>
@@ -91,13 +100,16 @@
   <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
   <label class="form-check-label" for="inlineCheckbox3">Perubahan Kondisi</label>
 </div>
-<div class="form-check form-check-inline">
+<div class="form-check form-check-inline" style="padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
   <label class="form-check-label" for="inlineCheckbox4">Perubahan DPJP</label>
 </div>
+  <div class="col-md-7" style="font-family: arial;">
+      <input type="text" class="form-control" placeholder="Isi disini apabila karena alasan lainnya">
+  </div>
 <br>
-<br>
-&nbsp;<div class="form-check form-check-inline">
+<b style="font-family: arial; padding-left: 10px; font-size: 16px; font-weight: bold;">Materi yang sudah diberikan?</b><br>
+<div class="form-check form-check-inline" style="font-family: arial; padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
   <label class="form-check-label" for="inlineCheckbox5">Proses Penyakit</label>
 </div>
@@ -109,7 +121,7 @@
   <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
   <label class="form-check-label" for="inlineCheckbox7">Nutrisi</label>
 </div>
-<div class="form-check form-check-inline">
+<div class="form-check form-check-inline" style="padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8">
   <label class="form-check-label" for="inlineCheckbox8">Pengobatan</label>
 </div>
@@ -117,7 +129,7 @@
   <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option9">
   <label class="form-check-label" for="inlineCheckbox9">Exercise</label>
 </div>
-<div class="form-check form-check-inline">
+<div class="form-check form-check-inline" style="font-family: arial; padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option10">
   <label class="form-check-label" for="inlineCheckbox10">Tindakan</label>
 </div>
@@ -125,14 +137,16 @@
   <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option11">
   <label class="form-check-label" for="inlineCheckbox11">Obat/Terapi</label>
 </div>
-<div class="form-check form-check-inline">
+<div class="form-check form-check-inline" style="padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option12">
   <label class="form-check-label" for="inlineCheckbox12">Perawatan</label>
 </div>
-
+  <div class="col-md-7" style="font-family: arial;">
+      <input type="text" class="form-control" placeholder="Isi disini apabila ada materi lainnya">
+  </div>
 <br>
-<br>
-&nbsp;<div class="form-check form-check-inline">
+<b style="font-family: arial; padding-left: 10px; font-size: 16px; font-weight: bold;">Respon emosi</b><br>
+<div class="form-check form-check-inline" style="font-family: arial; padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option13">
   <label class="form-check-label" for="inlineCheckbox13">Tenang</label>
 </div>
@@ -152,7 +166,7 @@
   <input class="form-check-input" type="checkbox" id="inlineCheckbox17" value="option17">
   <label class="form-check-label" for="inlineCheckbox17">Rendah Diri</label>
 </div>
-<div class="form-check form-check-inline">
+<div class="form-check form-check-inline" style="font-family: arial; padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox18" value="option18">
   <label class="form-check-label" for="inlineCheckbox18">Mudah Tersinggung</label>
 </div>
@@ -168,9 +182,12 @@
   <input class="form-check-input" type="checkbox" id="inlineCheckbox21" value="option21">
   <label class="form-check-label" for="inlineCheckbox21">Takut</label>
 </div>
+  <div class="col-md-7" style="font-family: arial;">
+      <input type="text" class="form-control" placeholder="Isi disini apabila ada respon emosi lainnya">
+  </div>
 <br>
-<br>
-&nbsp;<div class="form-check form-check-inline">
+<b style="font-family: arial; padding-left: 10px; font-size: 16px; font-weight: bold;">Kesediaan menerima edukasi ulang?</b><br>
+<div class="form-check form-check-inline" style="font-family: arial; padding-left: 10px;">
   <input class="form-check-input" type="checkbox" id="inlineCheckbox22" value="option22">
   <label class="form-check-label" for="inlineCheckbox22">Bersedia</label>
 </div>
@@ -178,35 +195,66 @@
   <input class="form-check-input" type="checkbox" id="inlineCheckbox23" value="option23">
   <label class="form-check-label" for="inlineCheckbox23">Tidak</label>
 </div>
+  <div class="col-md-7" style="font-family: arial;">
+      <input type="text" class="form-control" placeholder="Isi disini alasan apabila tidak bersedia">
+  </div>
+<br>
+  <center>
+<button type="button" class="btn btn-outline-secondary mr-2 mr-sm-4" style="height:40px; width: 140px; color: red; background-color: white;  border: 1px solid #CE4343;">Batal</button>
+<button type="button" class="btn btn-outline-secondary mr-2 mr-sm-4" style="height: 40px; width: 140px; color: white; background-color: blue; ">Simpan</button> 
+  </center>
                 <!-- content -->
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="card bg-white " style="width:400px; height:300px;">
+      <div class="card bg-white " style="width:auto; height:780px;">
         <div class="">
           <div class="">
             <div class="">
               <div class="">
                 <!-- content -->
-                
-                <!-- content -->
+<p style="font-family: arial; font-size: 18px; padding-left: 10px; padding-top: 10px; padding-bottom: 1px; font-weight: bold;">List Assesment Kebutuhan Edukasi</p>
+<div class="table-responsiv">
+<table class="table">
+    <thead>
+      <tr style="font-size: 14px; background-color: #F5F5F5">
+        <th>No</th>
+        <th>Tanggal</th>
+        <th>Bicara</th>
+        <th>Perawat</th>
+        <th>Data Assesment</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+  <tr style="font-weight: bold; font-size: 14px;" >
+    <td>1</td>
+    <td>26-09-2019</td>
+    <td>Normal</td>
+    <td>Yuningsih.Amk</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+        </div>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
-
-<!-- <br>
-<p><b><div class="footer-last">
-Sistem Informasi Rumah Sakit @2020 Powered by Medinesia.id
-</p></b></div> -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    </div>
+  </div>         
+<br>
+ <center>     
+    <footer>
+    <div class="footer-1" style="font-family: arial; font-weight: bold; line-height: 50px;">
+      <p class="text">Sistem Operasi Rumah Sakit @2019 Powered by Medinesia.id</p>
+    </div>
+  </footer>
+</center>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
   </body>
 </html>
